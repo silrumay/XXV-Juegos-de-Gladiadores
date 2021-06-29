@@ -1,0 +1,658 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html,body {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* FLEXBOX */
+
+.logo-principal {
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    display: flex;
+}
+
+/* MENU-CONTAINER */
+
+.menu-container {
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu-container-prog {
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* MENU CONTAINER */
+
+/* MENU + MENU FINAL*/
+
+.menu-index {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+} 
+
+.menu-final-index {
+    width: 350px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+/* menu + menu final programacion */
+
+.menu {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.menu-final {
+    width: 350px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+/* MENU "a" PROGRAMACION  */
+
+.inicio a{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+    font-size: 14px;
+}
+
+.evento a{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+    font-size: 14px;
+}
+
+.programacion a{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+    font-size: 14px;
+}
+
+.inscripciones a{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+    font-size: 14px;
+}
+
+.comprar a{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+    font-size: 14px;
+}
+
+.contacto a{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+    font-size: 14px;
+}
+
+/* FIN MENU "a" Programacion */
+
+/* INICIO MENU "a" index */
+
+.inicio-index a{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.evento-index a{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.programacion-index a{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.inscripciones-index a{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.comprar-index a{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.contacto-index a{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+/* FIN MENU "a" index */
+
+
+
+ /*
+ .carrusel {
+    height: 100%;
+    font-family: sans-serif;
+    background-image: url('images/coliseo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    Para que baje con el scroll:
+    
+    background-attachment: fixed;
+} 
+*/
+.carrusel2 {
+    height: 100%;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Para que baje con el scroll:
+    
+    background-attachment: fixed; */
+}
+
+.menu-programacion {
+    float: center; 
+    list-style: none;
+    margin: 0;
+    padding: 34px;
+    text-align: center;
+}
+
+.menu-programacion li{
+    display: inline;
+}
+
+.menu-programacion a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(29, 29, 29);
+    font-size: 14px;
+}
+
+.nav {
+    float: center; 
+    list-style: none;
+    margin: 0;
+    padding: 34px;
+    text-align: center;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+header {
+    clear: both;
+    overflow: auto;
+}
+
+.funkyarrow {
+    background: url(/images/arrw-1.png);
+    width: 58px;
+    height: 57px;
+    right: 50%;
+    position: absolute;
+    bottom: 5%;
+    border: none;
+    transition: all 1s;
+    
+}
+
+.funkyarrow:hover {
+   filter: brightness(0%);
+   cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+
+a:hover {
+    color: #b5322a;
+}
+
+.promo-text {
+    color: white;
+    margin-left: 50px;
+    padding-top: 12%;
+    font-size: 60px;
+    width: 30%;
+    font-family: 'Farro', sans-serif;
+}
+
+.promo-text:after {
+    content: "VIVE"}
+ 
+.promo-text:hover:after {content: "MUERE POR"; color: rgb(170, 17, 17);}
+
+.promo-text2 {
+    color: white;
+    margin-left: 50px;
+    font-size: 60px;
+    font-family: 'Farro', sans-serif;
+}
+
+
+.menucontacto {
+    color: silver;
+}
+
+#evento {
+    height: 56%;
+    display: flex;
+    flex-flow: row;
+    color: rgb(47, 49, 44);
+    font-family: sans-serif;
+}
+
+.imagen-gladiadores {
+    /* float: left; */
+    display: block;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 6%;
+    
+    
+}
+
+.bloquedetexto {
+    /* float: right; */
+    display: block;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-right: 6%;
+    margin-left: 5%;
+    
+}
+
+/* #contacto {
+    display: flex;
+    flex-flow: row;
+    color: rgb(47, 49, 44);
+    /* font-family: sans-serif; 
+    background-color: #afafaf;
+} */
+
+/* .texto-contacto{
+    display: block;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 6%;
+
+} */
+
+.menu-contacto {
+    display: block;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-right: 6%;
+    margin-left: 5%;
+
+}
+.menu-contacto a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(44, 44, 44);
+    
+}
+
+.menu-contacto li {
+    list-style: none;
+    padding-bottom: 8px;
+}
+
+.mapa {
+
+    width: 50%;
+    display: block;
+    margin-left: 2%;
+
+}
+
+.social-networks {
+    padding-top: 35px;
+    
+}
+
+.social-networks a{
+   
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+
+.texto-programacion h2 {
+    font-family: 'Farro', sans-serif;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.texto-programacion h3 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 7%;
+    font-size: 17px;
+}
+
+.texto-programacion p {
+    width: 700px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 3%;
+    margin-left: 7%;
+    font-size: 19px;
+}
+
+.texto-inscripciones h2 {
+    font-family: 'Farro', sans-serif;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.texto-inscripciones h3 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 7%;
+    font-size: 17px;
+}
+
+.texto-inscripciones h4 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 7%;
+    font-size: 15px;
+}
+
+.texto-inscripciones p {
+    width: 700px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 3%;
+    margin-left: 7%;
+    font-size: 19px;
+}
+
+.cuadro-container {
+    display: flex;
+    justify-content: center;
+}
+.cuadro-posiciones {
+    width: 800px;
+    height: 550px;
+
+}
+
+.boton-participar {
+    padding: 20px 0;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+.boton-participar a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b5322a;
+    font-weight: bold;
+    
+}
+
+/* .texto-comprar{
+    display: flex;
+    justify-content: center;
+
+} */
+
+.texto-comprar img {
+    width: 800px;
+    height: 600px;
+}
+
+.texto-comprar h1 {
+    font-family: 'Farro', sans-serif;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.texto-comprar ol {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 7%;
+    font-size: 17px;
+}
+
+.texto-comprar h6 {
+    width: 700px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 1%;
+    margin-left: 7%;
+    font-size: 10px;
+}
+
+.texto-comprar button {
+    width: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 7%;
+    font-size: 10px;
+}
+
+.gradas-container {
+    display: flex;
+    justify-content: center;
+}
+.gradas {
+    width: 800px;
+    height: 550px;
+
+}
+
+/* GRIDS */
+
+.enfrentamientos {
+    background-color: #fafafa;
+    padding-top: 45px;
+    padding-bottom: 45px;
+   
+}
+
+.enfrentamientos-Jue15 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap: 10%;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-family: 'ubuntu', sans-serif;
+
+}
+
+.enfrentamiento-palabra {
+    font-family: 'Farro', sans-serif;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.Jue15-fecha {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+@media only screen and (min-width:769px) {
+    .enfrentamientos-Jue15 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+@media (min-width:400px) and (max-width:768px) {
+    .enfrentamientos-Jue15 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+ }
+
+ @media (max-width:400px) {
+    .enfrentamientos-Jue15 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2rem;
+    }
+ }
+
+ /* BOOTSTRAP */
+
+ /* .items-menu {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 200px;
+} */
+/* .contacto-boton {
+    border-radius: 25px;
+    border-color: brown;
+    color: brown;
+} */
+
+/* .contacto-boton a{
+    text-decoration: none;
+    border-radius: 25px;
+    border-color: brown;
+    color: brown;
+
+} */
+
+/* .contacto-boton:hover {
+    background-color:brown;
+    border-style: none;
+    
+}
+
+.contacto-boton a:hover {
+    color: white;
+} */
+
+/* .comprar-boton {
+    margin-right: 15px;
+    border-radius: 25px;
+    border-color: brown;
+    color: brown;
+    text-align: center;
+} */
+
+/* .comprar-boton a{
+    text-decoration: none;
+    border-radius: 25px;
+    border-color: brown;
+    color: brown;
+
+} */
+
+/* .comprar-boton:hover {
+    background-color:brown;
+    border-style: none;
+    
+} */
+
+/* .comprar-boton a:hover {
+    color: white;
+} */
+
+
+
+/* .menu-derecho {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+} */

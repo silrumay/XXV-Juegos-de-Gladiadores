@@ -1,0 +1,79 @@
+
+
+
+/* Variables */
+
+$text-color-menu: brown;
+
+
+body {
+    .carrusel {
+        height: 100%;
+        font-family: sans-serif;
+        background-image: url("../images/coliseo2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        .items-menu {
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+            margin-left: 200px;
+        }
+
+        .menu-derecho {
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: bold;
+
+            .comprar-boton {
+                margin-right: 15px;
+                border-radius: 25px;
+                border-color: brown;
+                color: $text-color-menu;
+                text-align: center;
+
+                &:hover {
+                    background-color:brown;
+                    color: white;
+                }
+
+                a {
+                    text-decoration: none;
+                    border-radius: 25px;
+                    border-color: brown;
+                    color: $text-color-menu;
+
+                    &:hover {
+                        background-color:brown;
+                        border-style: none;
+                        color: white;
+                    }
+                }
+            }
+            
+            .contacto-boton {
+                border-radius: 25px;
+                border-color: brown;
+                color: $text-color-menu;
+
+                &:hover {
+                    background-color:brown;
+                    border-style: none;
+                }
+
+                a {
+                    text-decoration: none;
+                    border-radius: 25px;
+                    border-color: brown;
+                    color: $text-color-menu;
+
+                    &:hover {
+                        color: white;
+                    }
+                }
+
+            }
+        
+        }
+    }
+}

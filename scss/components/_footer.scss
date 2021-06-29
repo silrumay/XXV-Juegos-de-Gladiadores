@@ -1,0 +1,42 @@
+@import '../base/maps';
+@import '../base/condicion';
+
+#contacto {
+
+    @include condicion(#ececec);
+    display: flex;
+    flex-flow: row;
+    color: rgb(47, 49, 44);
+    font-family: map-get($fonts , encabezados);
+    
+
+
+        .texto-contacto {
+
+                display: block;
+                padding-top: 6%;
+                padding-bottom: 6%;
+                padding-left: 6%;
+            
+        
+
+                h2 {
+                    font-family: 'Farro', sans-serif;
+                    font-size: 35px;
+                    padding-bottom: 5%;
+                }
+
+                h3 {
+                    font-family: 'Ubuntu', sans-serif;
+                    font-size: 16px;
+                }
+
+                h5 {
+                    font-family: 'Ubuntu', sans-serif;
+                    font-size: 13px;
+                    padding-bottom: 8%;
+                }
+        }
+    
+
+}

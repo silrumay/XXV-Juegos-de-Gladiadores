@@ -1,0 +1,5 @@
+@mixin encabezados ($color) {
+    font-family: 'Farro';
+    font-size: 35px;
+    color: $color;
+}

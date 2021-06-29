@@ -1,0 +1,98 @@
+/* Variables */
+body .carrusel {
+  height: 100%;
+  font-family: sans-serif;
+  background-image: url("../images/coliseo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .carrusel .items-menu {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 200px;
+}
+body .carrusel .menu-derecho {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+body .carrusel .menu-derecho .comprar-boton {
+  margin-right: 15px;
+  border-radius: 25px;
+  border-color: brown;
+  color: brown;
+  text-align: center;
+}
+body .carrusel .menu-derecho .comprar-boton:hover {
+  background-color: brown;
+  color: white;
+}
+body .carrusel .menu-derecho .comprar-boton a {
+  text-decoration: none;
+  border-radius: 25px;
+  border-color: brown;
+  color: brown;
+}
+body .carrusel .menu-derecho .comprar-boton a:hover {
+  background-color: brown;
+  border-style: none;
+  color: white;
+}
+body .carrusel .menu-derecho .contacto-boton {
+  border-radius: 25px;
+  border-color: brown;
+  color: brown;
+}
+body .carrusel .menu-derecho .contacto-boton:hover {
+  background-color: brown;
+  border-style: none;
+}
+body .carrusel .menu-derecho .contacto-boton a {
+  text-decoration: none;
+  border-radius: 25px;
+  border-color: brown;
+  color: brown;
+}
+body .carrusel .menu-derecho .contacto-boton a:hover {
+  color: white;
+}
+
+#contacto {
+  background-color: #ececec;
+  border: none;
+  display: flex;
+  flex-flow: row;
+  color: #2f312c;
+  font-family: "Farro";
+}
+#contacto .texto-contacto {
+  display: block;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 6%;
+}
+#contacto .texto-contacto h2 {
+  font-family: "Farro", sans-serif;
+  font-size: 35px;
+  padding-bottom: 5%;
+}
+#contacto .texto-contacto h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+#contacto .texto-contacto h5 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 13px;
+  padding-bottom: 8%;
+}
+
+#evento .bloquedetexto h2 {
+  font-family: "Farro";
+  font-size: 35px;
+  color: #555;
+}
+#evento .bloquedetexto p {
+  font-family: "Ubuntu";
+}
+
+/*# sourceMappingURL=main.css.map */

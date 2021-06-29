@@ -1,0 +1,9 @@
+@mixin condicion($colorIf) {
+    background-color: $colorIf;
+
+    @if $colorIf == #ececec {
+        border: none;
+    } @else {
+        border: 4px dotted red;
+    }
+}

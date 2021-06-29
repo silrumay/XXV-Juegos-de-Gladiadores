@@ -1,0 +1,14 @@
+@import '../base/mixin';
+@import '../base/maps';
+
+#evento {
+    .bloquedetexto {
+                h2 {
+               @include encabezados (#555)
+            }
+
+                p {
+                    font-family: map-get($fonts , texto-contunuo);
+                }
+        }
+ }
