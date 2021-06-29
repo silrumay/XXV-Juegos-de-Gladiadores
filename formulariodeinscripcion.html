@@ -26,8 +26,21 @@
 </header>
 
 <body>
-    <form action="">
-        <label for="GET-name">Nombre:</label>
+  <form action="enviar.php" method="POST" name="contact-form">
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="nombre">
+
+    <label for="name">Email</label>
+    <input type="email" id="enmail" name="mail">
+
+    <label for="name">Asunto</label>
+    <input type="subject" id="asunto" name="asunto">
+
+    <label for="name">Mensaje</label>
+    <textarea type="text" id="mensaje" name="mensaje" cols="30" rows="10"></textarea>
+     
+    <input type="submit" >
+        <!-- <label for="GET-name">Nombre:</label>
         <input id="GET-name" type="text" name="name">
         <br>
         <br>
@@ -45,7 +58,7 @@
         <input id="GET-name" type="text" name="name">
         <br>
         <br>
-        <input type="submit" value="Finalizar inscripcion">
+        <input type="submit" value="Finalizar inscripcion"> -->
       </form> 
    
 </body>
